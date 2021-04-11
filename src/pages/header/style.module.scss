@@ -1,0 +1,42 @@
+.header{
+    padding-top: 29px;
+    .headerbody{
+        display: flex;
+        .colorwordswrapper{
+            span{
+                padding: 13px;
+                font-size: 40px;
+                font-weight: bold;
+                color: #fff;
+                font-family: 'Cinzel', serif;
+            }
+            :nth-child(1){
+                background: #f4b208;
+            }
+            :nth-child(2){
+                background: #e6535e;
+            }
+            :nth-child(3){
+                background: #8ce071;
+            }
+            :nth-child(4){
+                background: #6dd3c2;
+            }
+            :nth-child(5){
+                background: #3a7b86;
+            }
+            :nth-child(6){
+                background: #7d3151;
+            }
+        }
+        .withoutcolorwrapper{
+            span{
+                font-size: 40px;
+                font-weight: bold;
+                word-spacing: 7px;
+                padding: 11px;
+                font-family: 'Cinzel', serif;
+            }
+        }
+    }
+}
