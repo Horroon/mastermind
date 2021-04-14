@@ -1,4 +1,22 @@
+.samestyle{
+    padding-top: 9px;
+    width: inherit;
+}
+
 .maincontainer{
-    width: 512px;
+    width: 522px;
     margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    padding-top: 22px;
+    .headerwrapper{
+        @extend .samestyle
+    }; 
+    .ruleswrapper{
+        @extend .samestyle
+    }; 
+    .borderwrapper{
+        @extend .samestyle
+    }
 }

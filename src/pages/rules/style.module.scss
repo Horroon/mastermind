@@ -1,0 +1,27 @@
+.rulecontainer{
+    .rulebuttoncontainer{
+        button{
+            color: black;
+            background: transparent;
+            border: 0px;
+            padding-left: 0px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+    .contentcontainer{
+        border: #EAEBE9 1px solid;
+        margin: auto;
+        padding: 10px;
+        text-align: justify;
+        a{
+            color: #1A8D7C;
+            text-decoration: none;
+            border-bottom: 1px dotted #1A8D7C;
+        }
+    }
+    [class~='hidden']{
+        display: none;
+    }
+}

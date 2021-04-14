@@ -1,0 +1,40 @@
+$yellow:#f4b208;
+$pink: #e6535e;
+$green:#8ce071;
+$cyan:#6dd3c2;
+$slati:#3a7b86;
+$liver:#7d3151;
+
+.colorscontainer{
+    width: 50px;
+    text-align: center;
+    div{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    [class~='yellow']{
+        background: $yellow;
+    };
+    [class~='pink']{
+        background: $pink;
+    };
+    [class~='green']{
+        background: $green;
+    };
+    [class~='cyan']{
+        background: $cyan;
+    };
+    [class~='slati']{
+        background: $slati;
+    };
+    [class~='liver']{
+        background: $liver;
+    };
+    [class~='selected']{
+        border: 1px solid black;
+    }
+}

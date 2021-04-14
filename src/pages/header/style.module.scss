@@ -1,6 +1,6 @@
 .header{
-    padding-top: 29px;
     .headerbody{
+        height: 60px;
         display: flex;
         .colorwordswrapper{
             span{
@@ -30,11 +30,11 @@
             }
         }
         .withoutcolorwrapper{
-            span{
+            span{    
                 font-size: 40px;
                 font-weight: bold;
-                word-spacing: 7px;
-                padding: 11px;
+                word-spacing: 14px;
+                padding-left: 10px;
                 font-family: 'Cinzel', serif;
             }
         }
